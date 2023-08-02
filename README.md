@@ -20,11 +20,20 @@ npm install
 
 After installing the dependencies, you can run the application to find the evolution chain for a Pokémon.
 
-node app.js <pokemonName>
+In the example.js replace the value of the pokemonName const with the name of the pokemon yow wish to fetch the Evolution chain for. It is currently set as follows:- 
 
-Replace `<pokemonName>` with the name of the Pokémon you want to find the evolution chain for. For example:
+const pokemonName = 'charmander';
 
-node app.js charmander
+
+### Fetch Evolution Chain for a Pokemon
+
+To fetch the evolution chain for a Pokemon, open the `example.js` file:
+
+1. Open the `example.js` file.
+
+2. Run the `example.js` file using the following command:
+
+node example.js 
 
 The output will be displayed in JSON format, showing the evolution chain and its variations.
 
@@ -36,19 +45,7 @@ npm test
 
 Make sure you have already installed the project dependencies using `npm install` before running the tests.
 
-## Example
 
-Here's an example of how to use the application and view the evolution chain for a Pokémon:
-
-1. Install the dependencies (if you haven't already) by running:
-
-npm install
-
-2. Run the application with the desired Pokémon name (e.g., Pikachu):
-
-node app.js pikachu
-
-The output will be displayed in JSON format, showing the evolution chain and its variations for Pikachu.
 
 ## Note
 
